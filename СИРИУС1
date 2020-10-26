@@ -1,0 +1,17 @@
+a=int(input())  #вводят год первого события
+b=int(input())  #какое-то число 
+if a<0 and b<0 or a>0 and b>0:
+    c=a+b
+    print(c)
+if a<0 and b>0 and b>abs(a):
+    d=a+b+1
+    print(d)
+if a<0 and b>0 and b<abs(a):
+    e=a+b
+    print(e)
+if a>0 and b<0 and abs(b)>a:
+    f=a+b+1
+    print(f)
+if a>0 and b<0 and abs(b)<a:
+    g=a+b
+    print(g)
