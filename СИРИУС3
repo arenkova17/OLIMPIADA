@@ -1,0 +1,9 @@
+L = int(input())
+
+N = int(input())
+
+sum(def za_bor:
+    for i in range(N):
+        fence_elem = int(input()))
+
+sum(def za_bor)
